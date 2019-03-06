@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/txtRouteName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Route Name" />
+
+        <TextView
+            android:id="@+id/txtRouteCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cost" />
+
+        <TextView
+            android:id="@+id/txtRouteTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time" />
+
+        <TextView
+            android:id="@+id/txtRouteSeats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seats" />
+
+    </LinearLayout>
+
+    <RadioButton
+        android:id="@+id/checkboxConfirm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>

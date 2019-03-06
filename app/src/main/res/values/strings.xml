@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Personal</string>
+    <string name="splash_text">Long Distance PSV Booking</string>
+    <string name="already_registered">Already Registered? \n Please click here to Login</string>
+    <string name="google_place_api">AIzaSyBTZKaO4fOWaVhllQ16is6fQTMKnV2QRYo</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
